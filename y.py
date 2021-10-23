@@ -9,4 +9,4 @@ df = pd.DataFrame({
     'D': np.random.normal(100, 10, size=(N)).tolist()
     })
 for col in df:
-   col.to_excel("test.xlsx")
+col.to_excel("test.xlsx")
