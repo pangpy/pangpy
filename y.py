@@ -12,4 +12,4 @@ df = pd.DataFrame({
     })
 
 for col in df:
-   print (col)
+   col.to_excel("test.xlsx")
